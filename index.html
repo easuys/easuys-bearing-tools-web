@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Strip Footing Bearing Capacity · EA Suys</title>
+<meta name="description" content="Bearing capacity of strip footings by EA Suys, on request: exact plasticity solution by the method of characteristics, water table, sloping ground, inclined load and an EN 1997-1 check against Annex D.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://bearing.easuys.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Strip footing bearing capacity · EA Suys">
+<meta property="og:description" content="Bearing capacity of strip footings by EA Suys, on request: exact plasticity solution, water table, sloping ground, inclined load and an EN 1997-1 check.">
+<meta property="og:url" content="https://bearing.easuys.com/">
+<link rel="icon" href="https://www.easuys.be/favicon.ico" sizes="any">
+<style>
+:root {
+  --bg: #f3f5f6; --surface: #ffffff; --ink: #18212a; --muted: #5a6670; --rule: #d5dce1; --accent: #1d5c86;
+  --font-display: "Barlow Semi Condensed", "Arial Narrow", "Segoe UI", sans-serif;
+  --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111518; --surface: #182026; --ink: #e3e8ec; --muted: #9aa7b1; --rule: #2b353d; --accent: #78b4de;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111518; --surface: #182026; --ink: #e3e8ec; --muted: #9aa7b1; --rule: #2b353d; --accent: #78b4de;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 40px; margin: 0;
+}
+.wrap { max-width: 860px; margin: 0 auto; display: grid; gap: 20px; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px;
+  border-bottom: 2px solid var(--ink); padding-bottom: 8px; }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: 1.85rem; margin: 0; line-height: 1.15; }
+.brand { font-family: var(--font-display); font-weight: 600; font-size: 0.9rem; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--muted); }
+h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.15rem; margin: 0 0 10px; }
+.panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 4px; padding: 16px; }
+.panel p { margin: 0 0 10px; max-width: 70ch; }
+.panel ul { margin: 0; padding-left: 20px; max-width: 70ch; }
+.panel li { margin-bottom: 4px; }
+a { color: var(--accent); }
+a.button { display: inline-block; font-family: var(--font-display); font-weight: 600; letter-spacing: 0.04em;
+  background: var(--accent); color: var(--surface); text-decoration: none; border-radius: 3px; padding: 9px 14px; }
+footer { font-size: 0.82rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Strip footing bearing capacity</h1>
+    <span class="brand">EA Suys</span>
+  </header>
+
+  <section class="panel" aria-labelledby="req-h">
+    <h2 id="req-h">Calculation on request</h2>
+    <p>EA Suys computes the bearing capacity of strip footings with its own program. The calculation is available on
+      request; it no longer runs on this page.</p>
+    <p>Send us the footing (width, depth, the load and its inclination), the soil (c′, φ′, unit weights, the water
+      table) and any slope beside the footing. You receive the collapse load and the EN 1997-1 check.</p>
+    <p><a class="button" href="mailto:info@easuys.be?subject=Strip%20footing%20bearing%20capacity">Ask for a calculation</a></p>
+  </section>
+
+  <section class="panel" aria-labelledby="what-h">
+    <h2 id="what-h">What the calculation covers</h2>
+    <ul>
+      <li>The exact plasticity solution for a smooth or rough strip footing on c′–φ′ soil with weight, with c′
+        increasing with depth.</li>
+      <li>A water table at any depth.</li>
+      <li>A slope beside the footing and an inclined load, with moment equilibrium through an effective footing.</li>
+      <li>The Davis reduction for real sand, which dilates less than the exact solution assumes.</li>
+      <li>An EN 1997-1 bearing check with the recommended partial factors, with the Annex D formula beside it.</li>
+    </ul>
+  </section>
+
+  <section class="panel" aria-labelledby="chk-h">
+    <h2 id="chk-h">Checks</h2>
+    <ul>
+      <li>Prandtl–Reissner closed-form solutions, and Green's exact solution for inclined loads on undrained clay.</li>
+      <li>Published tables (Martin 2004 and 2005, Cox 1962, Salençon and Matar 1982): agreement within 0.03 %.</li>
+      <li>Water table: the exact limits and second-order mesh convergence.</li>
+    </ul>
+  </section>
+
+  <footer>EA Suys · <a href="https://www.easuys.be/">www.easuys.be</a> · The results are an engineering check, not a
+    foundation design.</footer>
+</div>
+</body>
+</html>
